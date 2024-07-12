@@ -1,0 +1,120 @@
+.title {
+    font-size: 4rem;
+    font-family: "Assistant";
+    text-align: center;
+    margin: 1% auto;
+    direction: rtl;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1% auto;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.description {
+    font-size: 1.5rem;
+    font-family: "AssistantR";
+    text-align: center;
+    margin: 1% auto;
+    direction: rtl;
+    width: 40%;
+}
+
+.descriptionP {
+    font-size: 1.5rem;
+    font-family: "AssistantR";
+    text-align: center;
+    margin: 1% auto;
+    direction: rtl;
+    width: 40%;
+    padding-top: 80px;
+}
+
+.center {
+    display: flex;
+    margin: 0 auto;
+    width: 20%;
+    justify-content: center;
+}
+
+.image {
+    width: 100%;
+    object-fit: contain;
+    box-shadow: 0 0 5px 1px #555;
+    border-radius: 20px 150px 20px 50px;
+}
+
+@media only screen and (max-width: 350px) {
+    .title { font-size: 1.8rem; margin:2% auto;  }
+    .row { width: 100%;  }
+    .description, .descriptionP { width: 90%; margin:2% auto; font-size: 1.1rem; }
+    .center { width: 80%; margin:15px auto;  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+    .title { font-size: 2rem; margin:15px auto; }
+    .row { width: 95%; }
+    .description, .descriptionP { width: 85%; margin:2% auto; font-size:1.15rem; }
+    .center { width: 70%;margin:2% auto; }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+    .title { font-size: 2.4rem;margin:15px auto; }
+    .row { width: 90%; }
+    .description, .descriptionP { width: 80%; font-size: 1.2rem;margin:15px auto; }
+    .center { width: 55%; margin:15px auto; }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 650px) {
+    .title { font-size: 2.6rem;margin:15px auto; }
+    .row { width: 90%; }
+    .description, .descriptionP { width: 80%; font-size: 1.2rem;margin:15px auto; }
+    .center { width: 45%; margin:15px auto; }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+    .title { font-size: 2.8rem;margin:15px auto; }
+    .row { width: 90%; }
+    .description, .descriptionP { width: 80%; font-size: 1.25rem;margin:15px auto; }
+    .center { width: 40%; margin:15px auto; }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 850px) {
+    .title { font-size: 3rem;margin:15px auto; }
+    .row { width: 90%; }
+    .description, .descriptionP { width: 80%; font-size: 1.35rem;margin:15px auto; }
+    .center { width:35%; margin:15px auto; }
+}
+
+@media only screen and (min-width: 850px) and (max-width: 950px) {
+    .title { font-size: 3rem;margin:15px auto; }
+    .row { width: 90%; }
+    .description, .descriptionP { width: 80%; font-size: 1.4rem;margin:15px auto; }
+    .center { width:30%; margin:15px auto; }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1050px) {
+    .title { font-size: 3.4rem; }
+    .row { width: 65%; }
+    .description, .descriptionP { width: 55%; font-size: 1.2rem; }
+    .center { width: 26%; }
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1150px) {
+    .title { font-size: 3.6rem; }
+    .row { width: 60%; }
+    .description, .descriptionP { width: 50%; font-size: 1.3rem; }
+    .center { width: 24%; }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1250px) {
+    .title { font-size: 3.8rem; }
+    .row { width: 55%; }
+    .description, .descriptionP { width: 45%; font-size: 1.4rem; }
+    .center { width: 22%; }
+}

@@ -1,0 +1,47 @@
+.button {
+    background-color: #624537;
+    color: #ffffff;
+    font-family: 'Assistant';
+    font-size: 18px;
+    padding: 15px 30px;
+    direction: rtl;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
+  }
+  .button:hover {
+    background-color: #512f1a;
+  }
+  .wrapper{
+    display: flex;
+    justify-content: center;
+    margin:2% auto;
+  }
+
+  @media only screen and (max-width: 350px) {
+
+    .button {
+      background-color: #624537;
+      color: #ffffff;
+      font-family: 'Assistant';
+      font-size: 16px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+    .button:hover {
+      background-color: #4e3a2d;
+    }
+    .wrapper{
+      display: flex;
+      justify-content: center;
+      margin:2% auto;
+    }
+  
+
+  }

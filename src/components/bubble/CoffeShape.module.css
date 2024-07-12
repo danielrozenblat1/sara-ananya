@@ -1,0 +1,161 @@
+.shape {
+  width: 380px;
+  height: 200px;
+  background: linear-gradient(135deg, #5d2d0984, #915337, #4F3415);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:15px auto;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.iconWrapper {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 80px;
+  height: 80px;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  margin: 2% auto;
+  width: 70%;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.description {
+  color: white;
+  font-size: 1.1rem;
+  font-family: "AssistantR";
+  text-align: right;
+  width: 70%;
+}
+
+@media only screen and (max-width: 350px) {
+  .shape {
+      width: 280px;
+      height: 147px;
+      padding: 15px;
+  
+  }
+  .iconWrapper {
+      width: 60px;
+      height: 60px;
+      top: 15px;
+      left: 7px;
+  }
+  .title {
+      font-size: 16px;
+  }
+  .description {
+      font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+  .shape {
+      width: 300px;
+      height: 158px;
+      padding: 16px;
+  }
+  .iconWrapper {
+      width: 65px;
+      height: 65px;
+      top: 16px;
+      left: 8px;
+  }
+  .title {
+      font-size: 17px;
+  }
+  .description {
+      font-size: 0.95rem;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+  .shape {
+      width: 320px;
+      height: 168px;
+      padding: 17px;
+  }
+  .iconWrapper {
+      width: 70px;
+      height: 70px;
+      top: 17px;
+      left: 9px;
+  }
+  .title {
+      font-size: 18px;
+  }
+  .description {
+      font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 650px) {
+  .shape {
+      width: 340px;
+      height: 179px;
+      padding: 18px;
+  }
+  .iconWrapper {
+      width: 75px;
+      height: 75px;
+      top: 18px;
+      left: 9px;
+  }
+  .title {
+      font-size: 19px;
+  }
+  .description {
+      font-size: 1.05rem;
+  }
+}
+
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+  .shape {
+      width: 360px;
+      height: 189px;
+      padding: 19px;
+  }
+  .iconWrapper {
+      width: 77px;
+      height: 77px;
+      top: 19px;
+      left: 10px;
+  }
+  .title {
+      font-size: 19px;
+  }
+  .description {
+      font-size: 1.07rem;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .shape {
+      width: 380px;
+      height: 200px;
+      padding: 20px;
+  }
+  .iconWrapper {
+      width: 80px;
+      height: 80px;
+      top: 20px;
+      left: 10px;
+  }
+  .title {
+      font-size: 20px;
+  }
+  .description {
+      font-size: 1.1rem;
+  }
+}
