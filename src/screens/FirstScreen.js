@@ -1,6 +1,6 @@
 import Circle from "../components/circle/Circle"
 import styles from "./FirstScreen.module.css"
-import sara from "../images/שרה אנניה.png"
+import sara from "../images/שרה תדמית.png"
 import makeup from "../Icons/wired-lineal-1599-powder-makeup-face.json"
 import wedding from "../Icons/wired-lineal-653-marriage.json"
 const FirstScreen=(props)=>{
