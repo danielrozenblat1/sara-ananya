@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link as ScrollLink } from "react-scroll";
 import styles from './NavBarNew.module.css';
 
-import { FaInstagram, FaFacebook, FaWhatsapp, FaBars, FaTimes } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaWhatsapp, FaBars, FaTimes, FaYoutube, FaTiktok } from 'react-icons/fa';
 
 const NavBarNew = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -102,8 +102,8 @@ const NavBarNew = () => {
       
       
       <div className={styles.socialIcons}>
-      <a href="https://www.instagram.com/sara.ananya/" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
-        <a onClick={handleClick} ><FaWhatsapp /></a>
+      <a href="https://youtube.com/@saraananya?si=ZxcyDhaxwr14lxHJ" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
+      <a href="https://www.tiktok.com/@sara.ananya?_t=8o62FprIJVc&_r=1" target="_blank" rel="noopener noreferrer"><FaTiktok /></a>
       </div>
     </nav>
   );

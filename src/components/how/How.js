@@ -5,6 +5,7 @@ import TimelineSeparator from '@mui/lab/TimelineSeparator';
 import TimelineConnector from '@mui/lab/TimelineConnector';
 import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineOppositeContent from '@mui/lab/TimelineOppositeContent';
+import NightlifeIcon from '@mui/icons-material/Nightlife';
 import PhoneIcon from '@mui/icons-material/Phone';
 import DescriptionIcon from '@mui/icons-material/Description';
 import EditIcon from '@mui/icons-material/Edit';
@@ -98,7 +99,8 @@ const CustomizedTimeline = () => {
               שיחת ייעוץ ואפיון
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item1" textAlign="right" marginBottom="0">
-כמו בכל התחלה, קודם נכיר, נבין מה סוג האירוע,נבין איך את רוצה להראות ותקבלי ממני הוראות עד הפגישה שלנו
+            - נשוחח בטלפון נכיר קצת ואביא לך את כל הפרטים שכלולים בחבילה לאיפור כלה עלויות וכו' 
+            ונשריין את התאריך ביומן
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -124,35 +126,11 @@ const CustomizedTimeline = () => {
          פגישה לפני האירוע
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item2" marginRight="auto" textAlign="right" marginBottom="0">
-            בפגישה אנחנו נתאים בדיוק את גוון האיפור לעור שלך ונעשה סקיצה לדוגמא 
+            לאחר שריון התאריך אנחנו נפגשות כחודש לפני החתונה לאיפור ניסיון ונעשה תיאום ציפיות כדי שביום החתונה לא תצטרכי לדאוג לכלום
             </Typography>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
-          <TimelineOppositeContent
-            sx={{ m: 'auto 0' }}
-            variant="body2"
-            color="black"
-            fontFamily="Assistant"
-          >
-            <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.5rem" id="item3">
-              3
-            </Typography>
-          </TimelineOppositeContent>
-          <TimelineSeparator>
-            <TimelineConnector sx={{ bgcolor: 'black' }} />
-               <HandshakeIcon fontSize="large" sx={{ color: 'black' }} />
-            <TimelineConnector sx={{ bgcolor: 'black' }} fontFamily="Assistant" />
-          </TimelineSeparator>
-          <TimelineContent sx={{ py: '45px', px: 2, display: 'flex', flexDirection: 'column' }}>
-            <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.2rem" color="black" id="item3" textAlign="right" direction="rtl" marginBottom="0">
-           תיקונים ושינויים
-            </Typography>
-            <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item3" textAlign="right" marginBottom="0">
-וכאן היופי! כאן המקום שלך לתת את דעתך ולבקש תיקונים ושינויים לאיפור שלך
-            </Typography>
-          </TimelineContent>
-        </TimelineItem>
+   
         <TimelineItem>
           <TimelineOppositeContent
             sx={{ m: 'auto 0' }}
@@ -161,7 +139,7 @@ const CustomizedTimeline = () => {
             fontFamily="Assistant"
           >
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.5rem" color="black" id="item2">
-              4
+              3
             </Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
@@ -175,7 +153,7 @@ const CustomizedTimeline = () => {
            פגישה ביום האירוע
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item2" textAlign="right" marginBottom="0">
-          אנחנו נפגשות ביום האירוע, אני מאפקת אותך בדיוק כמו שרצית ואת תהי הכי יפה ברחבה בהבטחה!ד
+            ביום החתונה, נפגשות מתרגשות מקשקשות ואני מאפרת אותך ביום החשוב שלך בצורה הכי מדוייקת בשבילך
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -187,26 +165,26 @@ const CustomizedTimeline = () => {
             fontFamily="Assistant"
           >
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.5rem" id="item3">
-              5
+             4
             </Typography>
           </TimelineOppositeContent>
           <TimelineSeparator>
             <TimelineConnector sx={{ bgcolor: 'black' }} />
-            <ImageIcon fontSize="large" sx={{ color: 'black' }} />
+            <NightlifeIcon fontSize="large" sx={{ color: 'black' }} />
             <TimelineConnector sx={{ bgcolor: 'black' }} fontFamily="Assistant" />
           </TimelineSeparator>
           <TimelineContent sx={{ py: '45px', px: 2, display: 'flex', flexDirection: 'column' }}>
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.2rem" color="black" id="item3" textAlign="right" direction="rtl" marginBottom="0">
-        צילומים
+        ליווי לאולם(אופצינלי)
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item3" textAlign="right" marginBottom="0">
-          כמובן שלא תצאי ממני בלי תמונה וסרטון של האיפור המושלם שלך
+            במידה וסגרת איתי ליווי לאולם אנחנו נתראה גם שם לעוד כמה שעות
             </Typography>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
 
-      <Button text="שרה, נשמע לי מדהים! בואי נדבר!" />
+      <Button text="אני רוצה שתאפרי אותי לחתונה" />
     </>
   );
 };

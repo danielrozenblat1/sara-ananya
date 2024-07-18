@@ -1,0 +1,33 @@
+.card {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    min-height: 100px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #ead78e, #c4a174, #8b4513);
+    box-shadow: 0 10px 20px rgba(139, 69, 19, 0.1), 0 20px 40px rgba(139, 69, 19, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    direction: rtl;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    font-family: 'Assistant';
+
+    font-size: 1.2rem;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-family: 'Assistant';
+   
+    font-size: 1rem;
+    color: #212121;
+  }
+  

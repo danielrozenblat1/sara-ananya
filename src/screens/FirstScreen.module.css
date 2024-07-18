@@ -12,7 +12,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin: 1% auto;
-    width: 50%;
+    width: 80%;
     justify-content: space-evenly;
 }
 
@@ -34,6 +34,14 @@
     width: 40%;
     padding-top: 80px;
 }
+.me {
+    font-size: 1.5rem;
+    font-family: "AssistantR";
+    text-align: center;
+    margin: 2% auto;
+    direction: rtl;
+    width: 70%;
+}
 
 .center {
     display: flex;
@@ -49,60 +57,113 @@
     border-radius: 20px 150px 20px 50px;
 }
 
+.promiseContainer {
+    margin: 2% auto;
+    width:40%;
+    text-align: center;
+
+    direction: rtl;
+}
+
+.promiseTitle {
+    font-size: 2rem;
+    font-family: "Assistant";
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.promiseList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.promiseList li {
+    font-size: 1.2rem;
+    font-family: "AssistantR";
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.promiseList li::before {
+    content: "✓";
+    color: #4a3728; /* חום כהה */
+    margin-left: 10px;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 350px) {
-    .title { font-size: 1.8rem; margin:2% auto;  }
-    .row { width: 100%;  }
-    .description, .descriptionP { width: 90%; margin:2% auto; font-size: 1.1rem; }
-    .center { width: 80%; margin:15px auto;  }
+    .title { font-size: 1.8rem; margin: 2% auto; }
+    .row { width: 100%; }
+    .description, .descriptionP,.me { width: 90%; margin: 2% auto; font-size: 1.1rem; }
+    .center { width: 80%; margin: 15px auto; }
+    .promiseContainer { width: 90%; }
+    .promiseTitle { font-size: 1.5rem; }
+    .promiseList li { font-size: 1rem; }
+ 
 }
 
 @media only screen and (min-width: 350px) and (max-width: 450px) {
-    .title { font-size: 2rem; margin:15px auto; }
+    .title { font-size: 2rem; margin: 15px auto; }
     .row { width: 95%; }
-    .description, .descriptionP { width: 85%; margin:2% auto; font-size:1.15rem; }
-    .center { width: 70%;margin:2% auto; }
+    .description, .descriptionP ,.me{ width: 85%; margin: 2% auto; font-size: 1.15rem; }
+    .center { width: 70%; margin: 2% auto; }
+    .promiseContainer { width: 85%; }
+    .promiseTitle { font-size: 1.6rem; }
+    .promiseList li { font-size: 1.05rem; }
 }
 
 @media only screen and (min-width: 450px) and (max-width: 550px) {
-    .title { font-size: 2.4rem;margin:15px auto; }
+    .title { font-size: 2.4rem; margin: 15px auto; }
     .row { width: 90%; }
-    .description, .descriptionP { width: 80%; font-size: 1.2rem;margin:15px auto; }
-    .center { width: 55%; margin:15px auto; }
+    .description, .descriptionP,.me { width: 80%; font-size: 1.2rem; margin: 15px auto; }
+    .center { width: 55%; margin: 15px auto; }
+    .promiseContainer { width: 80%; }
+    .promiseTitle { font-size: 1.7rem; }
+    .promiseList li { font-size: 1.1rem; }
 }
 
 @media only screen and (min-width: 550px) and (max-width: 650px) {
-    .title { font-size: 2.6rem;margin:15px auto; }
+    .title { font-size: 2.6rem; margin: 15px auto; }
     .row { width: 90%; }
-    .description, .descriptionP { width: 80%; font-size: 1.2rem;margin:15px auto; }
-    .center { width: 45%; margin:15px auto; }
+    .description, .descriptionP,.me { width: 80%; font-size: 1.2rem; margin: 15px auto; }
+    .center { width: 45%; margin: 15px auto; }
+    .promiseContainer { width: 75%; }
+    .promiseTitle { font-size: 1.8rem; }
+    .promiseList li { font-size: 1.15rem; }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 750px) {
-    .title { font-size: 2.8rem;margin:15px auto; }
+    .title { font-size: 2.8rem; margin: 15px auto; }
     .row { width: 90%; }
-    .description, .descriptionP { width: 80%; font-size: 1.25rem;margin:15px auto; }
-    .center { width: 40%; margin:15px auto; }
+    .description, .descriptionP,.me { width: 80%; font-size: 1.25rem; margin: 15px auto; }
+    .center { width: 40%; margin: 15px auto; }
+    .promiseContainer { width: 70%; }
+    .promiseTitle { font-size: 1.9rem; }
+    .promiseList li { font-size: 1.2rem; }
 }
 
 @media only screen and (min-width: 750px) and (max-width: 850px) {
-    .title { font-size: 3rem;margin:15px auto; }
+    .title { font-size: 3rem; margin: 15px auto; }
     .row { width: 90%; }
-    .description, .descriptionP { width: 80%; font-size: 1.35rem;margin:15px auto; }
-    .center { width:35%; margin:15px auto; }
+    .description, .descriptionP,.me { width: 80%; font-size: 1.35rem; margin: 15px auto; }
+    .center { width: 35%; margin: 15px auto; }
+    .promiseContainer { width: 65%; }
 }
 
 @media only screen and (min-width: 850px) and (max-width: 950px) {
-    .title { font-size: 3rem;margin:15px auto; }
+    .title { font-size: 3rem; margin: 15px auto; }
     .row { width: 90%; }
-    .description, .descriptionP { width: 80%; font-size: 1.4rem;margin:15px auto; }
-    .center { width:30%; margin:15px auto; }
+    .description, .descriptionP,.me { width: 80%; font-size: 1.4rem; margin: 15px auto; }
+    .center { width: 30%; margin: 15px auto; }
+    .promiseContainer { width: 60%; }
 }
 
 @media only screen and (min-width: 950px) and (max-width: 1050px) {
     .title { font-size: 3.4rem; }
     .row { width: 65%; }
-    .description, .descriptionP { width: 55%; font-size: 1.2rem; }
+    .description, .descriptionP,.me { width: 55%; font-size: 1.2rem; }
     .center { width: 26%; }
+    .promiseContainer { width: 55%; }
 }
 
 @media only screen and (min-width: 1050px) and (max-width: 1150px) {
@@ -110,6 +171,10 @@
     .row { width: 60%; }
     .description, .descriptionP { width: 50%; font-size: 1.3rem; }
     .center { width: 24%; }
+    .promiseContainer { width: 50%; }
+    .me{
+        width: 70%; font-size: 1.3rem;
+    }
 }
 
 @media only screen and (min-width: 1150px) and (max-width: 1250px) {
@@ -117,4 +182,10 @@
     .row { width: 55%; }
     .description, .descriptionP { width: 45%; font-size: 1.4rem; }
     .center { width: 22%; }
+    .promiseContainer { width: 45%; }
+    .promiseTitle { font-size: 2rem; }
+    .promiseList li { font-size: 1.2rem; }
+    .me{
+        width:65%; font-size: 1.35rem;
+    }
 }
