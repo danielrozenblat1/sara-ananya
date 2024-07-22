@@ -1,10 +1,10 @@
 import styles from "./Recommends.module.css"
-import result1 from "../../images/שרה לקוחה 1.png"
+import sara from "../../images/שרה המלצות.png"
 import result2 from "../../images/שרה לקוחה 2.png"
 import result3 from "../../images/שרה לקוחה 3.png"
 import result4 from "../../images/שרה לקוחה 4.png"
 import result5 from "../../images/שרה לקוחה 5.png"
-import result6 from "../../images/שרה לקוחה 6.png"
+
 import result7 from "../../images/שרה לקוחה 7.png"
 import result8 from "../../images/שרה לקוחה 8.png"
 import result9 from "../../images/שרה לקוחה 9.png"
@@ -29,10 +29,7 @@ import result26 from "../../images/שרה לקוחה 26.png"
 import result27 from "../../images/שרה לקוחה 27.png"
 import result28 from "../../images/שרה לקוחה 28.png"
 import result29 from "../../images/שרה לקוחה 29.png"
-import result30 from "../../images/שרה לקוחה 30.png"
-import result31 from "../../images/שרה לקוחה 31.png"
-import result32 from "../../images/שרה לקוחה 32.png"
-import result33 from "../../images/שרה לקוחה 33.png"
+
 import result34 from "../../images/שרה לקוחה 34.png"
 
 
@@ -40,7 +37,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Button from "../button/Button"
-const Recommends=()=>{
+const Recommends2=()=>{
     const sliderSettings = {
      
         infinite: true,
@@ -57,37 +54,79 @@ const Recommends=()=>{
       const content = [
         {
           type: 'image',
-          src: result1,
+          src: result9,
         },
         {
           type: 'image',
-          src: result33,
+          src: result11,
         },
       
         {
           type: 'image',
-          src: result6,
+          src: result13,
         },
         {
           type: 'image',
-          src: result30,
+          src: result7,
         },
         {
           type: 'image',
-          src: result32,
+          src: result20,
         },
         {
           type: 'image',
-          src: result31,
+          src: result4,
+        },
+        {
+          type: 'image',
+          src: result12,
         },
      
-   
-      
-
+        {
+          type: 'image',
+          src: result29,
+        },
+        
+        {
+          type: 'image',
+          src: result18,
+        },   
+          {
+          type: 'image',
+          src: result22,
+        },
+        {
+          type: 'image',
+          src: result17,
+        },
+        {
+          type: 'image',
+          src: result10,
+        },
+        {
+          type: 'image',
+          src: result24,
+        },
+        {
+          type: 'image',
+          src: result26,
+        },
+        {
+          type: 'image',
+          src: result28,
+        },
+        {
+          type: 'image',
+          src: result8,
+        },
+        {
+          type: 'image',
+          src: result21,
+        },
         ];  
 return <>
-<div className={styles.title} id="המלצות">בואי לראות את הבנות שכבר סמכו עליי</div>
-<div className={styles.explain}>תחליקי בין התמונות</div>
+
+<div className={styles.explain} id="תוצאות">תחליקי בין התמונות</div>
 <div className={styles.sliderContainer}>
         <Slider {...sliderSettings}>
           {content.map((item, index) => (
@@ -114,10 +153,10 @@ return <>
           ))}
         </Slider>
       </div>
-
+<div className={styles.centered}><img className={styles.imaged} src={sara} alt="שרה אנניה המלצות"/></div>
 <div className={styles.center}><Button text="שרה,אני רוצה לשמוע עוד!"/></div>
 </>
 
 
 }
-export default Recommends
+export default Recommends2

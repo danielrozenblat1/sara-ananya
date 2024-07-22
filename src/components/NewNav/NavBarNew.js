@@ -104,6 +104,8 @@ const NavBarNew = () => {
       <div className={styles.socialIcons}>
       <a href="https://youtube.com/@saraananya?si=ZxcyDhaxwr14lxHJ" target="_blank" rel="noopener noreferrer"><FaYoutube /></a>
       <a href="https://www.tiktok.com/@sara.ananya?_t=8o62FprIJVc&_r=1" target="_blank" rel="noopener noreferrer"><FaTiktok /></a>
+      <a onClick={handleClick}><FaWhatsapp/></a>
+      <a href="https://www.instagram.com/sara.ananya/"><FaInstagram/></a>
       </div>
     </nav>
   );

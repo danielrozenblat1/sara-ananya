@@ -10,6 +10,7 @@ import SecondScreen from './screens/SecondScreen';
 import ThirdScreen from './screens/ThirdScreen';
 import ForthScreen from './screens/ForthScreen';
 import Social from './components/social/Social';
+import Recommends2 from './components/recommends/Recommends2';
 
 function App() {
 
@@ -39,9 +40,10 @@ function App() {
   <NavBarNew/>
   <FirstScreen scrolled={scrolled}/>
   <Recommends/>
+  <Recommends2/>
   <SecondScreen/>
+<ThirdScreen/>
 
-  <ThirdScreen/>
   <ForthScreen/>
   <BasicAccordion/>
  

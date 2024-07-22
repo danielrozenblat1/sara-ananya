@@ -42,7 +42,7 @@ const ThirdScreen=()=>{
     },
   ];
  return <>
- <div className={styles.title}>סגנונות האיפור</div>
+ {/* <div className={styles.title}>סגנונות האיפור</div>
  <div className={styles.description}>לכל אחת יש את סגנון האיפור שהכי מתאים לה ויישב על הפנים שלה בצורה הכי קלילה וטבעית,איך נדע איזה סוג איפור מתאים לך?בשביל זה קודם בואי נבין מהם סוגי האיפור הקיימים</div>
  <div className={styles.center}>
  {recommendationsData.map((recommendation, index) => (
@@ -53,7 +53,7 @@ const ThirdScreen=()=>{
           description={recommendation.description}
         />
       ))}
-    </div>
+    </div> */}
     <Button text="אני רוצה לתאם איתך איפור"/>
     <div className={styles.title} id="תהליך העבודה איתי">מתחתנת בקרוב?</div>
     <div className={styles.subtitle}>אני פה כדי לענות על הכל ולהדריך אותך לאורך כל התהליך</div>
