@@ -7,7 +7,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 .subtitle{
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Assistant";
     text-align: center;
     margin: 2% auto;
@@ -54,7 +54,7 @@
     }
     .center { width: 90%;flex-wrap: wrap; }
     .subtitle{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         width: 90%;
 
     }
@@ -68,7 +68,7 @@
     }
     .center { width: 90%;flex-wrap: wrap; }
     .subtitle{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         width: 90%;
 
     }
@@ -82,7 +82,7 @@
     }
     .center { width: 90%;flex-wrap: wrap; }
     .subtitle{
-        font-size: 2rem;
+        font-size: 1.7rem;
         width: 90%;
 
     }
@@ -95,7 +95,7 @@
         width: 80%;
     }
     .subtitle{
-        font-size: 2.2rem;
+        font-size:1.8rem;
         width: 90%;
 
     }
@@ -110,7 +110,7 @@
     }
     .center { width: 90%;flex-wrap: wrap; }
     .subtitle{
-        font-size: 2.2rem;
+        font-size: 2rem;
         width: 90%;
 
     }
@@ -124,7 +124,7 @@
     }
     .center { width: 90%;flex-wrap: wrap; }
     .subtitle{
-        font-size: 2.4rem;
+        font-size: 2.1rem;
         width: 90%;
 
     }
@@ -138,22 +138,9 @@
     }
     .center { width: 90%;flex-wrap: wrap; }
     .subtitle{
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         width: 90%;
 
     }
 }
 
-@media only screen and (min-width: 950px) {
-    .title { font-size: 3.7rem;width:80% }
-    .description { 
-        font-size: 1.5rem;
-        width: 60%;
-    }
-    .subtitle{
-        font-size: 2.5rem;
-        width: 90%;
-
-    }
-    .center { width: 90%;flex-wrap: wrap; }
-}
