@@ -58,11 +58,6 @@ const Recommends2=()=>{
         },
         {
           type: 'image',
-          src: result11,
-        },
-      
-        {
-          type: 'image',
           src: result13,
         },
         {
@@ -71,16 +66,12 @@ const Recommends2=()=>{
         },
         {
           type: 'image',
-          src: result20,
-        },
-        {
-          type: 'image',
           src: result4,
         },
-        {
-          type: 'image',
-          src: result12,
-        },
+      
+ 
+     
+    
      
         {
           type: 'image',
@@ -91,34 +82,17 @@ const Recommends2=()=>{
           type: 'image',
           src: result18,
         },   
-          {
-          type: 'image',
-          src: result22,
-        },
-        {
-          type: 'image',
-          src: result17,
-        },
         {
           type: 'image',
           src: result10,
         },
         {
           type: 'image',
-          src: result24,
-        },
-        {
-          type: 'image',
-          src: result26,
-        },
-        {
-          type: 'image',
-          src: result28,
-        },
-        {
-          type: 'image',
           src: result8,
         },
+     
+    
+     
         {
           type: 'image',
           src: result21,
@@ -154,7 +128,7 @@ return <>
         </Slider>
       </div>
 <div className={styles.centered}><img className={styles.imaged} src={sara} alt="שרה אנניה המלצות"/></div>
-<div className={styles.center}><Button text="שרה,אני רוצה לשמוע עוד!"/></div>
+
 </>
 
 

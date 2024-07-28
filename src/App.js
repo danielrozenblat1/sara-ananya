@@ -41,7 +41,7 @@ function App() {
   <FirstScreen scrolled={scrolled}/>
   <Recommends/>
   <Recommends2/>
-  <SecondScreen/>
+
 <ThirdScreen/>
 
   <ForthScreen/>

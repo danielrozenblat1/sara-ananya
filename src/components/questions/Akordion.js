@@ -113,7 +113,7 @@ export default function BasicAccordion() {
     >
       {/* Center parent container */}
      
-    <div className={styles.title} id="שאלות נפוצות" itemProp="mainEntity" itemScope itemType="https://schema.org/WebPage">זמן לענות על השאלות שלכן</div>
+    <div className={styles.title} id="שאלות ותשובות" itemProp="mainEntity" itemScope itemType="https://schema.org/WebPage">זמן לענות על השאלות שלכן</div>
       <DropdownAccordion title="את מגיעה לכל מקום בארץ ?" content="כן , מגיעה עבור כלות ומלוות בתוספת תשלום" />
       <DropdownAccordion title="יש לי אירוע מתי אוכל לקבוע איתך ?" content="במידה ואת כלה אני ממליצה לקבוע כמה שיותר מוקדם(ברגע שיש תאריך כדי למנוע חוסר זמינות) 
 במידה והאיפור הוא למלוות/ערב יהיה ניתן לקבוע 3 חודשים מראש - אין אפשרות לשריון לפני
@@ -129,7 +129,7 @@ export default function BasicAccordion() {
  על מנת לשריין את התאריך יש לשלם מקדמה ולאחר מכן תקבלי אישור סופי ממני שהשריון בוצע וזהו את רשומה ביומן 
 
         </div>
-        <Button text="לחצי כאן כדי לשלוח לי הודעה עכשיו" message="היי שרה,אני רוצה לשריין איתך תאריך"/>
+        <Button text="לחצי כאן כדי לתאם איתי" message="היי שרה,אני רוצה לשריין איתך תאריך"/>
         </>} />
       <DropdownAccordion title="מה ההבדל בין איפור ערב למלוות ?" content="ההבדל הוא רק בשעות - מלוות בדרך כלל מתארגנות משעות הבוקר המוקדמות כדי להיות  מוכנות עם הכלה לצילומים.
 איפור ערב הוא לאירוע בערב ולרוב קובעים אותו משעות אחרי הצהרים/ערב" />
@@ -138,6 +138,6 @@ export default function BasicAccordion() {
 מלוות וערב שעה" />
     </div>
 
-    <Button text="שרה יש לי עוד כמה שאלות אלייך"/>
+    <Button text="אשמח לדעת עוד כמה פרטים"/>
  </>
 }

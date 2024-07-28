@@ -55,7 +55,7 @@ const ThirdScreen=()=>{
       ))}
     </div> */}
     <Button text="אני רוצה לתאם איתך איפור"/>
-    <div className={styles.title} id="תהליך העבודה איתי">מתחתנת בקרוב?</div>
+    <div className={styles.title} id="מתחתנת? מזל טוב!">מתחתנת בקרוב?</div>
     <div className={styles.subtitle}>אני פה כדי לענות על הכל ולהדריך אותך לאורך כל התהליך</div>
     <CustomizedTimeline/>
  </>

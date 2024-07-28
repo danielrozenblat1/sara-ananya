@@ -96,7 +96,7 @@ const CustomizedTimeline = () => {
           </TimelineSeparator>
           <TimelineContent sx={{ py: '45px', px: 2, display: 'flex', flexDirection: 'column' }}>
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.2rem" color="black" id="item1" textAlign="right" direction="rtl" marginBottom="0">
-              שיחת ייעוץ ואפיון
+              שיחת ייעוץ 
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item1" textAlign="right" marginBottom="0">
             - נשוחח בטלפון נכיר קצת ואביא לך את כל הפרטים שכלולים בחבילה לאיפור כלה עלויות וכו' 
@@ -123,7 +123,7 @@ const CustomizedTimeline = () => {
           </TimelineSeparator>
           <TimelineContent sx={{ py: '45px', px: 2, display: 'flex', flexDirection: 'column' }}>
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.2rem" color="black" id="item2" textAlign="right" direction="rtl" marginBottom="0">
-         פגישה לפני האירוע
+            איפור ניסיון
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item2" marginRight="auto" textAlign="right" marginBottom="0">
             לאחר שריון התאריך אנחנו נפגשות כחודש לפני החתונה לאיפור ניסיון ונעשה תיאום ציפיות כדי שביום החתונה לא תצטרכי לדאוג לכלום
@@ -150,10 +150,10 @@ const CustomizedTimeline = () => {
           </TimelineSeparator>
           <TimelineContent sx={{ py: '45px', px: 2, display: 'flex', flexDirection: 'column' }}>
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.2rem" color="black" id="item2" textAlign="right" direction="rtl" marginBottom="0">
-           פגישה ביום האירוע
+            יום החתונה
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item2" textAlign="right" marginBottom="0">
-            ביום החתונה, נפגשות מתרגשות מקשקשות ואני מאפרת אותך ביום החשוב שלך בצורה הכי מדוייקת בשבילך
+            אני מאפרת אותך ביום החשוב שלך בצורה הכי מדוייקת בשבילך
             </Typography>
           </TimelineContent>
         </TimelineItem>
@@ -175,7 +175,7 @@ const CustomizedTimeline = () => {
           </TimelineSeparator>
           <TimelineContent sx={{ py: '45px', px: 2, display: 'flex', flexDirection: 'column' }}>
             <Typography variant="h6" component="span" fontFamily="AssistantR" fontSize="1.2rem" color="black" id="item3" textAlign="right" direction="rtl" marginBottom="0">
-        ליווי לאולם(אופצינלי)
+        ליווי לאולם(אופציונלי)
             </Typography>
             <Typography fontFamily="AssistantR" dir="rtl" fontSize="1rem" color="black" id="item3" textAlign="right" marginBottom="0">
             במידה וסגרת איתי ליווי לאולם אנחנו נתראה גם שם לעוד כמה שעות

@@ -56,7 +56,7 @@ const NavBarNew = () => {
 
   const closeMenu = () => setIsMenuOpen(false);
 
-  const menuItems = ['תוצאות', 'המלצות', 'שאלות נפוצות','תהליך העבודה איתי', ];
+  const menuItems = ['קצת עלי', 'המלצות','מתחתנת? מזל טוב!', 'השתלמויות וסדנאות איפור','שאלות ותשובות', ];
 
   return (
     <nav className={`${styles.navbar} ${isSticky ? styles.sticky : ''}`}>

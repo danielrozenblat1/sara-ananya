@@ -94,9 +94,9 @@ height: 80px;
     color: black; /* Changed to white */
     text-decoration: none;
     font-family: "AssistantR";
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     cursor: pointer;
-
+    direction: rtl;
   }
   
   .mobileMenu {
@@ -112,7 +112,7 @@ height: 80px;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    
+    direction: rtl;
     animation: slideIn 0.3s ease-out;
     backdrop-filter: blur(10px); /* Blur effect */
   }

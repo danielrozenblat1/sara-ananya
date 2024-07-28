@@ -11,6 +11,7 @@
     font-family: "Assistant";
     text-align: center;
     margin: 1% auto;
+    font-size: 3rem;
     direction: rtl;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
@@ -20,6 +21,7 @@
     text-align: center;
     margin: 1% auto;
     direction: rtl;
+    font-size: 1.2rem;
     width: 70%;
 }
 

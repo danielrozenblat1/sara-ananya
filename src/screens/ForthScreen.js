@@ -4,7 +4,7 @@ import styles from "./ForthScreen.module.css"
 
 const ForthScreen = () => {
     return <>
-        <div className={styles.title}>השתלמויות וסדנאות</div>
+        <div className={styles.title} id="השתלמויות וסדנאות איפור">השתלמויות וסדנאות איפור</div>
         
         <div className={styles.description}>
             מתאים לבנות אשר מעוניינות להתמקצע בתחום בין אם זה לשימוש אישי או לשימוש מקצועי

@@ -13,7 +13,7 @@ const SecondScreen=()=>{
 <div className={styles.row}>
 <CoffeeShape icon={heavy} title="שגוון המייקאפ לא תואם לך" description="יש הבדלים בגוונים בין הפנים לגוף ואת נראית כהה או אפורה מדי"/>
 <CoffeeShape icon={brush} title="שהאיפור מרגיש ונראה כבד על הפנים" description="הסתובבת עם האיפור עלייך בתחושת כבדות על הפנים"/>
-<CoffeeShape icon={listen} title="שאין הקשבה לדגשים שלך" description="ביקשת מהמאפרת משהו אחד וקיבלת משהו שונה לגמרי"/>
+<CoffeeShape icon={listen} title="שאין הקשבה לצרכים שלך" description="ביקשת מהמאפרת משהו אחד וקיבלת משהו שונה לגמרי"/>
 <CoffeeShape icon={unequal} title="שאת לא דומה לעצמך אחרי האיפור" description="הסתכלת במראה ואמרת לעצמך שאת לא נראית ככה"/>
 </div>
 <div className={styles.description}>כלכך הרבה נשים נכוות מתחום האיפור ונאלצות להגיע לאירוע (לפעמים החשוב בחיים שלהן) <div className={styles.bold}>ו"להתפשר"</div> על תוצאה לא מושלמת!</div>

@@ -63,14 +63,22 @@ const Recommends=()=>{
           type: 'image',
           src: result33,
         },
-      
+        {
+          type: 'image',
+          src: result11,
+        },
         {
           type: 'image',
           src: result6,
         },
+       
         {
           type: 'image',
           src: result30,
+        },
+        {
+          type: 'image',
+          src: result20,
         },
         {
           type: 'image',
@@ -81,9 +89,34 @@ const Recommends=()=>{
           src: result31,
         },
      
-   
-      
-
+        {
+          type: 'image',
+          src: result12,
+        },
+        {
+          type: 'image',
+          src: result34,
+        },
+        {
+          type: 'image',
+          src: result22,
+        },
+        {
+          type: 'image',
+          src: result17,
+        },
+        {
+          type: 'image',
+          src: result24,
+        },
+        {
+          type: 'image',
+          src: result26,
+        },
+        {
+          type: 'image',
+          src: result28,
+        },
         ];  
 return <>
 <div className={styles.title} id="המלצות">בואי לראות את הבנות שכבר סמכו עליי</div>
@@ -115,7 +148,7 @@ return <>
         </Slider>
       </div>
 
-<div className={styles.center}><Button text="שרה,אני רוצה לשמוע עוד!"/></div>
+
 </>
 
 
