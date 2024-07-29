@@ -17,7 +17,7 @@ const SecondScreen=()=>{
 <CoffeeShape icon={unequal} title="שאת לא דומה לעצמך אחרי האיפור" description="הסתכלת במראה ואמרת לעצמך שאת לא נראית ככה"/>
 </div>
 <div className={styles.description}>כלכך הרבה נשים נכוות מתחום האיפור ונאלצות להגיע לאירוע (לפעמים החשוב בחיים שלהן) <div className={styles.bold}>ו"להתפשר"</div> על תוצאה לא מושלמת!</div>
-  <Button text="שרה, בואי נדבר"/>
+
   
     </>
 }
